@@ -1,22 +1,22 @@
 {
-  "totalPages": 2357, <- TOTAL OF SIGNATURES READY TO BE ENFORCED
+  "totalPages": 2357, 
   "pageIndex": 1,
-  "selfLink": https://localhost/mgmt/tm/asm/policies/DvOhBMleI58C8Wr3_ylCcA/signatures?$top=1&$select=&ver=15.1.2&$filter=hasSuggestions%20eq%20false%20AND%20wasUpdatedWithinEnforcementReadinessPeriod%20eq%20false%20and%20performStaging%20eq%20true,
+  "selfLink": "https://localhost/mgmt/tm/asm/policies/DvOhBMleI58C8Wr3_ylCcA/signatures?$top=1&$select=&ver=15.1.2&$filter=hasSuggestions%20eq%20false%20AND%20wasUpdatedWithinEnforcementReadinessPeriod%20eq%20false%20and%20performStaging%20eq%20true",
   "kind": "tm:asm:policies:signatures:signaturecollectionstate",
   "startIndex": 1,
   "itemsPerPage": 1,
   "totalItems": 2357,
-  "nextLink": https://localhost/mgmt/tm/asm/policies/DvOhBMleI58C8Wr3_ylCcA/signatures?$skip=1&$top=1&$select=&ver=15.1.2&$filter=hasSuggestions%20eq%20false%20AND%20wasUpdatedWithinEnforcementReadinessPeriod%20eq%20false%20and%20performStaging%20eq%20true,
+  "nextLink": "https://localhost/mgmt/tm/asm/policies/DvOhBMleI58C8Wr3_ylCcA/signatures?$skip=1&$top=1&$select=&ver=15.1.2&$filter=hasSuggestions%20eq%20false%20AND%20wasUpdatedWithinEnforcementReadinessPeriod%20eq%20false%20and%20performStaging%20eq%20true",
   "items": [
     {
       "hasSuggestions": false,
       "lastUpdateMicros": 1625662532000000,
       "kind": "tm:asm:policies:signatures:signaturestate",
-      "selfLink": https://localhost/mgmt/tm/asm/policies/DvOhBMleI58C8Wr3_ylCcA/signatures/Z4NK-IBu4sZSaxyYQxIa0w?ver=15.1.2,
+      "selfLink": "https://localhost/mgmt/tm/asm/policies/DvOhBMleI58C8Wr3_ylCcA/signatures/Z4NK-IBu4sZSaxyYQxIa0w?ver=15.1.2",
       "signatureReference": {
-        "link": https://localhost/mgmt/tm/asm/signatures/LfUkp0xSsfrvKgw0jhKkpA?ver=15.1.2,
+        "link": "https://localhost/mgmt/tm/asm/signatures/LfUkp0xSsfrvKgw0jhKkpA?ver=15.1.2",
         "name": "\"sleep\" injection attempt (URI)",
-        "signatureId": 200104718 <- FIRST SIGNATURE SAMPLE ONLY
+        "signatureId": 200104718 
       },
       "wasUpdatedWithinEnforcementReadinessPeriod": false,
       "isPriorRuleEnforced": false,
