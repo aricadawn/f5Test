@@ -1,0 +1,35 @@
+{
+  "kind": "tm:asm:policies:policycollectionstate",
+  "selfLink": https://localhost/mgmt/tm/asm/policies?$select=id%2CversionPolicyName%2CenforcementMode&ver=15.1.2,
+  "totalItems": 4,
+  "items": [
+    {
+      "kind": "tm:asm:policies:policystate",
+      "selfLink": https://localhost/mgmt/tm/asm/policies/JRKLpibVnDZhyODmA80ssw?ver=15.1.2,
+      "enforcementMode": "blocking",
+      "id": "JRKLpibVnDZhyODmA80ssw",
+      "versionPolicyName": "/Common/test-captcha-non-https"
+    },
+    {
+      "kind": "tm:asm:policies:policystate",
+      "selfLink": https://localhost/mgmt/tm/asm/policies/mtIfLVA9S8l0qLasJuHNVQ?ver=15.1.2,
+      "enforcementMode": "blocking",
+      "id": "mtIfLVA9S8l0qLasJuHNVQ",
+      "versionPolicyName": "/Common/test-captcha"
+    },
+    {
+      "kind": "tm:asm:policies:policystate",
+      "selfLink": https://localhost/mgmt/tm/asm/policies/68Klpi0UljFaUqe2XteRww?ver=15.1.2,
+      "enforcementMode": "blocking",
+      "id": "68Klpi0UljFaUqe2XteRww",
+      "versionPolicyName": "/Common/test-policy-del2"
+    },
+    {
+      "kind": "tm:asm:policies:policystate",
+      "selfLink": https://localhost/mgmt/tm/asm/policies/DvOhBMleI58C8Wr3_ylCcA?ver=15.1.2,
+      "enforcementMode": "blocking",
+      "id": "DvOhBMleI58C8Wr3_ylCcA",
+      "versionPolicyName": "/Common/API-REST-policy"
+    }
+  ]
+}
